@@ -14,6 +14,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata = {
   title: "Craxs RAT | Cybersecurity Intelligence & Defense",
   description: "An educational deep dive into Craxs RAT: Understanding its powerful capabilities, attack vectors, and how to defend your systems against advanced mobile malware.",
+  verification: {
+    google: "bE-ycU4N3ZMPUcD6QM0gRVZ2jDGOrMoccze0U7vJ_wc",
+  },
 };
 
 export default function RootLayout({ children }) {
