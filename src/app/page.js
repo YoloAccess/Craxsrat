@@ -64,7 +64,7 @@ export default function Home() {
       </section>
 
       {/* Capabilities Section */}
-      <section className={styles.section}>
+      <section id="capabilities" className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2 className={styles.sectionTitle}>Devastating Capabilities</h2>
           <p className={styles.sectionSubtitle}>
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Attack Vectors Section */}
-      <section className={styles.section}>
+      <section id="vectors" className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2 className={`${styles.sectionTitle} ${styles.danger}`}>Attack Vectors</h2>
           <p className={styles.sectionSubtitle}>
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* Defense Section */}
-      <section className={styles.section}>
+      <section id="defense" className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2 className={styles.sectionTitle}>How to Defend Yourself</h2>
           <p className={styles.sectionSubtitle}>

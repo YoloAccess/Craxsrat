@@ -1,4 +1,5 @@
 import { Outfit, Space_Grotesk } from "next/font/google";
+import Navbar from "../components/Navbar";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.variable} ${spaceGrotesk.variable}`}>
+        <Navbar />
         {children}
       </body>
     </html>
