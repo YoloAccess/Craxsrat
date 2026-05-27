@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -207,6 +208,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>Educational Purposes Only. Understand the threat to build better defenses.</p>
+        <div style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+          <Link href="/privacy-policy" style={{ textDecoration: 'underline' }}>
+            Privacy Policy for Extension
+          </Link>
+        </div>
       </footer>
     </main>
   );
